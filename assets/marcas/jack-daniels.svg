@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 48" fill="none">
+  <rect width="150" height="48" rx="8" fill="#1A1033"/>
+  <rect x="10" y="12" width="18" height="24" rx="2" fill="#000" stroke="#fff" stroke-width="1"/>
+  <text x="34" y="22" font-family="Georgia,serif" font-size="10" font-weight="700" fill="#fff">JACK</text>
+  <text x="34" y="36" font-family="Georgia,serif" font-size="10" font-weight="700" fill="#C5A572">DANIEL'S</text>
+</svg>

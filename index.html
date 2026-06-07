@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Distribar — Distribuidora de bebidas com e sem álcool. Cervejas, energéticos, vodkas, whiskys, vinhos, espumantes, licores, ice's e Keep Cooler.">
+  <meta name="theme-color" content="#FFFFFF">
+  <title>Distribar — Distribuidora de Bebidas</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#" class="navbar__brand">
+        <img src="assets/logo.svg" alt="Distribar" class="navbar__logo" width="44" height="44">
+        <span class="navbar__name">Distribar</span>
+      </a>
+      <nav class="navbar__nav" id="navMenu">
+        <a href="#inicio" class="nav-link active">Início</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#produtos" class="nav-link">Produtos</a>
+        <a href="#marcas" class="nav-link">Marcas</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+      <a href="#contato" class="btn btn--primary btn--sm navbar__cta">Peça agora</a>
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+    </div>
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <span class="badge">🍻 Sua distribuidora de confiança</span>
+        <h1 class="hero__title">
+          Bebidas que <span class="gradient-text">animam</span> qualquer momento
+        </h1>
+        <p class="hero__desc">
+          A Distribar leva as melhores marcas de bebidas com e sem álcool até você.
+          Cervejas, energéticos, vodkas, whiskys, vinhos, espumantes, licores, ice's e Keep Cooler — tudo num só lugar.
+        </p>
+        <div class="hero__actions">
+          <button type="button" class="btn btn--primary btn--lg" id="openCardapio">
+            Veja o cardápio
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+          <a href="#contato" class="btn btn--ghost btn--lg">Fale conosco</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <strong>50+</strong>
+            <span>Marcas parceiras</span>
+          </div>
+          <div class="stat">
+            <strong>9</strong>
+            <span>Categorias</span>
+          </div>
+          <div class="stat">
+            <strong>24h</strong>
+            <span>Atendimento rápido</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__image-wrap">
+          <img src="assets/distribar-hero.png" alt="Variedade de bebidas Distribar" class="hero__image">
+          <div class="hero__avatar">
+            <img src="assets/distribar-mascot.png" alt="Mascote Distribar" width="80" height="80">
+            <span>Distribinho 🎉</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Role para explorar</span>
+      <div class="scroll-indicator"></div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="section sobre" id="sobre">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Quem somos</span>
+        <h2 class="section__title">Distribuindo <span class="gradient-text">sabor</span> e energia</h2>
+      </div>
+      <div class="sobre__grid">
+        <div class="sobre__card">
+          <div class="sobre__emoji">🚚</div>
+          <h3>Distribuidora completa</h3>
+          <p>Somos revendedores autorizados das maiores marcas do mercado, com variedade para todo tipo de negócio.</p>
+        </div>
+        <div class="sobre__card">
+          <div class="sobre__emoji">📦</div>
+          <h3>Estoque e entrega</h3>
+          <p>Do bar gelado ao evento especial, a Distribar garante estoque, qualidade e entrega no prazo.</p>
+        </div>
+        <div class="sobre__card">
+          <div class="sobre__emoji">⚡</div>
+          <h3>Agilidade</h3>
+          <p>Pedidos rápidos, atendimento humanizado e logística eficiente para seu negócio nunca parar.</p>
+        </div>
+        <div class="sobre__card">
+          <div class="sobre__emoji">🏆</div>
+          <h3>Grandes marcas</h3>
+          <p>Trabalhamos com as marcas que seus clientes já conhecem e confiam.</p>
+        </div>
+        <div class="sobre__card">
+          <div class="sobre__emoji">💰</div>
+          <h3>Bom preço</h3>
+          <p>Preços justos e condições especiais para revendedores, bares e eventos — qualidade sem pesar no bolso.</p>
+        </div>
+        <div class="sobre__card">
+          <div class="sobre__emoji">🤝</div>
+          <h3>Parceria de verdade</h3>
+          <p>Condições flexíveis e suporte dedicado para revendedores e eventos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section class="section produtos" id="produtos">
+    <div class="container">
+      <div class="section__header section__header--center">
+        <span class="section__tag">Nosso portfólio</span>
+        <h2 class="section__title">Tudo que você precisa, <span class="gradient-text">geladinho</span></h2>
+        <p class="section__desc">Explore nossas categorias de bebidas com e sem álcool</p>
+      </div>
+      <div class="produtos__grid">
+        <article class="produto-card produto-card--cerveja">
+          <div class="produto-card__icon">🍺</div>
+          <h3>Cervejas</h3>
+          <p>Pilsen, IPA, lager e especiais das marcas mais pedidas do Brasil.</p>
+          <span class="produto-card__tag">Com álcool</span>
+        </article>
+        <article class="produto-card produto-card--energetico">
+          <div class="produto-card__icon">⚡</div>
+          <h3>Energéticos</h3>
+          <p>Red Bull, Monster, Fusion e mais — energia para qualquer ocasião.</p>
+          <span class="produto-card__tag">Sem álcool</span>
+        </article>
+        <article class="produto-card produto-card--ice">
+          <div class="produto-card__icon">🧊</div>
+          <h3>Ice's</h3>
+          <p>Bebidas ice refrescantes, perfeitas para dias quentes e festas.</p>
+          <span class="produto-card__tag">Com álcool</span>
+        </article>
+        <article class="produto-card produto-card--vodka">
+          <div class="produto-card__icon">🍸</div>
+          <h3>Vodkas</h3>
+          <p>Smirnoff, Absolut, Orloff e outras premium para drinks e baladas.</p>
+          <span class="produto-card__tag">Com álcool</span>
+        </article>
+        <article class="produto-card produto-card--whisky">
+          <div class="produto-card__icon">🥃</div>
+          <h3>Whiskys</h3>
+          <p>Johnnie Walker, Jack Daniel's, Chivas e seleção especial.</p>
+          <span class="produto-card__tag">Com álcool</span>
+        </article>
+        <article class="produto-card produto-card--cooler">
+          <div class="produto-card__icon">🥤</div>
+          <h3>Keep Cooler</h3>
+          <p>Drinks prontos, sabores tropicais e a praticidade que todo mundo ama.</p>
+          <span class="produto-card__tag">Com álcool</span>
+        </article>
+        <article class="produto-card produto-card--vinho">
+          <div class="produto-card__icon">🍷</div>
+          <h3>Vinhos</h3>
+          <p>Tintos, brancos e rosés nacionais e importados para todos os paladares.</p>
+          <span class="produto-card__tag">Com álcool</span>
+        </article>
+        <article class="produto-card produto-card--espumante">
+          <div class="produto-card__icon">🍾</div>
+          <h3>Espumantes</h3>
+          <p>Chandon, Salton, Freixenet e outras — brindes, festas e celebrações com estilo.</p>
+          <span class="produto-card__tag">Com álcool</span>
+        </article>
+        <article class="produto-card produto-card--licor">
+          <div class="produto-card__icon">🥂</div>
+          <h3>Licores</h3>
+          <p>Amarula, Cointreau, Licor 43 e mais — doces, cremosos e perfeitos para drinks.</p>
+          <span class="produto-card__tag">Com álcool</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marcas -->
+  <section class="section marcas" id="marcas">
+    <div class="container">
+      <div class="section__header section__header--center">
+        <span class="section__tag">Parceiros</span>
+        <h2 class="section__title">Marcas que <span class="gradient-text">combrilham</span> com você</h2>
+      </div>
+      <div class="marcas__marquee">
+        <div class="marcas__track" id="marcasTrack">
+          <span class="marca-badge"><img src="assets/marcas/brahma.svg" alt="Brahma" width="120" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/skol.svg" alt="Skol" width="100" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/redbull.svg" alt="Red Bull" width="130" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/monster.svg" alt="Monster" width="130" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/smirnoff-ice.svg" alt="Smirnoff Ice" width="150" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/absolut.svg" alt="Absolut" width="120" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/johnnie-walker.svg" alt="Johnie Walker" width="150" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/keep-cooler.svg" alt="Keep Cooler" width="150" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/heineken.svg" alt="Heineken" width="130" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/smirnoff.svg" alt="Smirnoff" width="130" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/jack-daniels.svg" alt="Jack Daniel's" width="150" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/fusion.svg" alt="Fusion" width="110" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/casillero.svg" alt="Casillero del Diablo" width="180" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/miolo.svg" alt="Miolo" width="100" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/chandon.svg" alt="Chandon" width="120" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/salton.svg" alt="Salton" width="110" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/amarula.svg" alt="Amarula" width="120" height="48"></span>
+          <span class="marca-badge"><img src="assets/marcas/licor-43.svg" alt="Licor 43" width="120" height="48"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diferenciais -->
+  <section class="section diferenciais">
+    <div class="container">
+      <div class="diferenciais__wrap">
+        <div class="diferenciais__content">
+          <span class="section__tag">Por que Distribar?</span>
+          <h2 class="section__title">Mais que distribuidora,<br>seu <span class="gradient-text">parceiro</span></h2>
+          <ul class="diferenciais__list">
+            <li>
+              <span class="diferenciais__check">✓</span>
+              <div>
+                <strong>Variedade incomparável</strong>
+                <p>9 categorias, dezenas de marcas, um único fornecedor.</p>
+              </div>
+            </li>
+            <li>
+              <span class="diferenciais__check">✓</span>
+              <div>
+                <strong>Preço justo</strong>
+                <p>Condições especiais para revendedores e compras em volume.</p>
+              </div>
+            </li>
+            <li>
+              <span class="diferenciais__check">✓</span>
+              <div>
+                <strong>Entrega confiável</strong>
+                <p>Logística ágil para seu estoque nunca faltar.</p>
+              </div>
+            </li>
+            <li>
+              <span class="diferenciais__check">✓</span>
+              <div>
+                <strong>Atendimento top</strong>
+                <p>Equipe pronta para ajudar via WhatsApp, telefone ou e-mail.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="diferenciais__visual">
+          <img src="assets/distribar-mascot.png" alt="Mascote Distribar" class="diferenciais__mascot">
+          <div class="diferenciais__bubble bubble--1">🎉 Festa garantida!</div>
+          <div class="diferenciais__bubble bubble--2">❄️ Sempre gelado</div>
+          <div class="diferenciais__bubble bubble--3">🚀 Entrega rápida</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container cta-banner__inner">
+      <div class="cta-banner__text">
+        <h2>Pronto para abastecer seu negócio?</h2>
+        <p>Faça seu pedido agora e receba as melhores bebidas do mercado.</p>
+      </div>
+      <a href="#contato" class="btn btn--white btn--lg">Começar agora →</a>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="section contato" id="contato">
+    <div class="container">
+      <div class="section__header section__header--center">
+        <span class="section__tag">Fale conosco</span>
+        <h2 class="section__title">Vamos <span class="gradient-text">conversar</span>?</h2>
+        <p class="section__desc">Envie sua mensagem e nossa equipe responde rapidinho</p>
+      </div>
+      <div class="contato__grid">
+        <form class="contato__form" id="contactForm">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone / WhatsApp</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte o que você precisa..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg btn--full">Enviar mensagem</button>
+        </form>
+        <div class="contato__info">
+          <div class="contato__card">
+            <span class="contato__emoji">📱</span>
+            <h4>WhatsApp</h4>
+            <p>(00) 90000-0000</p>
+          </div>
+          <div class="contato__card">
+            <span class="contato__emoji">📧</span>
+            <h4>E-mail</h4>
+            <p>contato@distribar.com.br</p>
+          </div>
+          <div class="contato__card">
+            <span class="contato__emoji">📍</span>
+            <h4>Endereço</h4>
+            <p>Sua cidade, Brasil</p>
+          </div>
+          <div class="contato__card contato__card--social">
+            <h4>Redes sociais</h4>
+            <div class="social-links">
+              <a href="#" aria-label="Instagram">📸 Instagram</a>
+              <a href="#" aria-label="Facebook">👍 Facebook</a>
+              <a href="#" aria-label="TikTok">🎵 TikTok</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.svg" alt="Distribar" width="40" height="40">
+        <div>
+          <strong>Distribar</strong>
+          <p>Distribuidora de bebidas com e sem álcool</p>
+        </div>
+      </div>
+      <div class="footer__links">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <p class="footer__copy">© 2026 Distribar. Todos os direitos reservados. 🍻 Beba com moderação.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/5500000000000" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.883 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <!-- Cardápio Modal -->
+  <div class="cardapio-overlay" id="cardapioOverlay" aria-hidden="true">
+    <div class="cardapio-modal" role="dialog" aria-labelledby="cardapioTitle" aria-modal="true">
+      <button class="cardapio-close" id="closeCardapio" aria-label="Fechar cardápio">&times;</button>
+      <div class="cardapio-book">
+        <header class="cardapio-header">
+          <img src="assets/logo.svg" alt="" width="48" height="48">
+          <div>
+            <span class="cardapio-tag">☀️ Edição Verão</span>
+            <h2 id="cardapioTitle">Cardápio de Bebidas</h2>
+            <p>Distribar — geladas e prontas para seu negócio</p>
+          </div>
+        </header>
+        <div class="cardapio-body" id="cardapioBody">
+          <section class="cardapio-section">
+            <h3>🍺 Cervejas</h3>
+            <ul>
+              <li class="cardapio-item" data-price="3.50">
+                <div class="cardapio-item__info"><span>Brahma Lata 350ml</span><em>Pilsen</em></div>
+                <span class="cardapio-item__price">R$ 3,50</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+              <li class="cardapio-item" data-price="3.20">
+                <div class="cardapio-item__info"><span>Skol Lata 350ml</span><em>Pilsen</em></div>
+                <span class="cardapio-item__price">R$ 3,20</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+              <li class="cardapio-item" data-price="5.90">
+                <div class="cardapio-item__info"><span>Heineken Long Neck</span><em>Premium</em></div>
+                <span class="cardapio-item__price">R$ 5,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+            </ul>
+          </section>
+          <section class="cardapio-section">
+            <h3>⚡ Energéticos</h3>
+            <ul>
+              <li class="cardapio-item" data-price="9.90">
+                <div class="cardapio-item__info"><span>Red Bull 250ml</span><em>Tradicional</em></div>
+                <span class="cardapio-item__price">R$ 9,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+              <li class="cardapio-item" data-price="8.90">
+                <div class="cardapio-item__info"><span>Monster 473ml</span><em>Energy</em></div>
+                <span class="cardapio-item__price">R$ 8,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+              <li class="cardapio-item" data-price="12.90">
+                <div class="cardapio-item__info"><span>Fusion 2L</span><em>Tropical</em></div>
+                <span class="cardapio-item__price">R$ 12,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+            </ul>
+          </section>
+          <section class="cardapio-section">
+            <h3>🧊 Ice's &amp; 🥤 Keep Cooler</h3>
+            <ul>
+              <li class="cardapio-item" data-price="7.90">
+                <div class="cardapio-item__info"><span>Smirnoff Ice 275ml</span><em>Original</em></div>
+                <span class="cardapio-item__price">R$ 7,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+              <li class="cardapio-item" data-price="6.90">
+                <div class="cardapio-item__info"><span>Keep Cooler 275ml</span><em>Tropical</em></div>
+                <span class="cardapio-item__price">R$ 6,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+            </ul>
+          </section>
+          <section class="cardapio-section">
+            <h3>🍸 Destilados</h3>
+            <ul>
+              <li class="cardapio-item" data-price="45.90">
+                <div class="cardapio-item__info"><span>Vodka Smirnoff 965ml</span><em>Original</em></div>
+                <span class="cardapio-item__price">R$ 45,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+              <li class="cardapio-item" data-price="89.90">
+                <div class="cardapio-item__info"><span>Whisky Johnnie Walker Red</span><em>750ml</em></div>
+                <span class="cardapio-item__price">R$ 89,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+            </ul>
+          </section>
+          <section class="cardapio-section">
+            <h3>🍷 Vinhos &amp; 🍾 Espumantes</h3>
+            <ul>
+              <li class="cardapio-item" data-price="39.90">
+                <div class="cardapio-item__info"><span>Vinho Casillero del Diablo</span><em>Tinto 750ml</em></div>
+                <span class="cardapio-item__price">R$ 39,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+              <li class="cardapio-item" data-price="79.90">
+                <div class="cardapio-item__info"><span>Chandon Brut</span><em>Espumante 750ml</em></div>
+                <span class="cardapio-item__price">R$ 79,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+            </ul>
+          </section>
+          <section class="cardapio-section">
+            <h3>🥂 Licores</h3>
+            <ul>
+              <li class="cardapio-item" data-price="59.90">
+                <div class="cardapio-item__info"><span>Amarula 750ml</span><em>Cremoso</em></div>
+                <span class="cardapio-item__price">R$ 59,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+              <li class="cardapio-item" data-price="89.90">
+                <div class="cardapio-item__info"><span>Licor 43 700ml</span><em>Doce</em></div>
+                <span class="cardapio-item__price">R$ 89,90</span>
+                <div class="cardapio-qty"><button type="button" class="cardapio-qty__btn cardapio-qty__minus" aria-label="Menos">−</button><span class="cardapio-qty__value">0</span><button type="button" class="cardapio-qty__btn cardapio-qty__plus" aria-label="Mais">+</button></div>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <footer class="cardapio-footer">
+          <div class="cardapio-subtotal">
+            <span>Subtotal</span>
+            <strong id="cardapioSubtotal">R$ 0,00</strong>
+          </div>
+          <p>Valores ilustrativos — confirme disponibilidade pelo WhatsApp</p>
+          <a href="#contato" class="btn btn--primary btn--sm" id="cardapioPedido">Fazer pedido</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

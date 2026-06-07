@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 48" fill="none">
+  <rect width="110" height="48" rx="8" fill="#1A1033"/>
+  <circle cx="22" cy="24" r="12" fill="#FF6600"/>
+  <path d="M22 16 L24 22 L30 22 L25 26 L27 32 L22 28 L17 32 L19 26 L14 22 L20 22 Z" fill="#F5D100"/>
+  <text x="40" y="30" font-family="Arial,sans-serif" font-size="15" font-weight="800" fill="#FF6600">FUSION</text>
+</svg>

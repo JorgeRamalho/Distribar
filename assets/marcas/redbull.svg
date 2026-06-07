@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 48" fill="none">
+  <rect width="130" height="48" rx="8" fill="#1A1033"/>
+  <circle cx="22" cy="24" r="12" fill="#DB0A40"/>
+  <path d="M18 20 L26 24 L18 28 Z" fill="#FFCC00"/>
+  <text x="40" y="22" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#DB0A40">Red</text>
+  <text x="40" y="34" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#FFCC00">Bull</text>
+</svg>

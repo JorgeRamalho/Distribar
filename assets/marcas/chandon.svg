@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48" fill="none">
+  <rect width="120" height="48" rx="8" fill="#1A1033"/>
+  <path d="M18 34 L18 18 L22 14 L26 18 L26 34 Z" fill="#00824A"/>
+  <ellipse cx="22" cy="14" rx="4" ry="2" fill="#00824A"/>
+  <text x="34" y="30" font-family="Georgia,serif" font-size="14" font-weight="700" fill="#00824A">Chandon</text>
+</svg>

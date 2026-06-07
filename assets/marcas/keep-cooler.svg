@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 48" fill="none">
+  <rect width="150" height="48" rx="8" fill="#1A1033"/>
+  <rect x="10" y="12" width="20" height="24" rx="4" fill="#EC4899"/>
+  <circle cx="20" cy="20" r="4" fill="#F5D100"/>
+  <text x="38" y="22" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#EC4899">KEEP</text>
+  <text x="38" y="36" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#00D4FF">COOLER</text>
+</svg>
